@@ -1,3 +1,15 @@
+*.sln
+*.vcxproj
+*.filters
+*.user
+
+x64/
+x86/
+Debug/
+Release/
+bin/
+obj/
+
 *.exe
 *.out
 *.app
@@ -10,6 +22,7 @@
 
 build/
 dist/
+
 .vs/
 
 .DS_Store

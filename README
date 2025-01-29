@@ -1,1 +1,15 @@
-Asterisk
+Asterisk*
+
+Visual Studio Setup... just for now
+
+- Platform -> Select (All Platforms)
+- VC++ Directories:
+	- Include Directories -> C:\<project-path>\asterisk\libs\include
+	- Library Directories -> C:\<project-path>\asterisk\libs\lib
+- Linker:
+	- Input (Additional Dependencies):
+		glfw3.lib
+		opengl32.lib
+- Source Files (Add):
+	- glad.c (C:\<project-path>\asterisk\libs\src\glad.c)
+	- main.cpp (C:\<project-path>\asterisk\src\main.cpp)
